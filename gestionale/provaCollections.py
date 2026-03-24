@@ -1,3 +1,5 @@
+#insieme di prove delle collections ovvero deque liste insiemi tuple provate e spiegate direttamente dal prof
+
 import copy
 from collections import Counter, deque
 
@@ -83,7 +85,7 @@ tot, media, max, min = calcola_statistiche_carrello(carrello)
 print(tot)
 
 print("=============================================================")
-print("Set")
+print("Set, gli insiemi")
 
 #SET
 categorie = {"Gold", "Silver", "Bronze", "Gold"}
@@ -179,8 +181,9 @@ for key, val in catalogo.items():
 rimosso = catalogo.pop("LAP002")
 print(rimosso)
 
-#dict comprehesion
+#dict comprehesion, è un insieme di valori
 prezzi = {codice: prod.prezzo_unitario for codice,prod in catalogo.items()}
+print(prezzi)
 
 #DA RICORDARE PER DICT
 # d[key] = v # scrivo sul dizionbario
