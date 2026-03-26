@@ -45,7 +45,6 @@ class View:
         self._pagina.add(row1, row2, row3,self._lvOut) #aggiungo il contenuto alla pagina
 
 
-
     def set_controller(self, c):
         self._controller = c #in phyton si puo creare un attributo anche dopo non è necessario dichiararlo nel costruttore
 
